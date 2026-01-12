@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Link na Bio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <header class="profile">
+            <img src="imagens/WhatsApp Image 2026-01-11 at 18.37.46.jpeg" alt="Sua Foto" class="avatar">
+            <h1>@AlineMagalhaes</h1>
+            <p>Nutricionista</p>
+        </header>
+
+        <main class="links">
+            <a href="https://wa.me/5511954054007" target="_blank" class="link-card">
+                <i class="fab fa-whatsapp"></i> WhatsApp
+            </a>
+            <a href="https://youtube.com/" target="_blank" class="link-card">
+                <i class="fab fa-youtube"></i> Canal no YouTube
+            </a>
+            <a href="https://github.com/krackeros" target="_blank" class="link-card">
+                <i class="fab fa-github"></i> Portfólio GitHub
+            </a>
+            
+            <button onclick="copyPix()" class="link-card highlight">
+                <i class="fas fa-hand-holding-usd"></i> Apoie o Canal (Copiar PIX)
+            </button>
+
+            <button id="theme-toggle" class="link-card">
+                <i class="fas fa-moon"></i> Mudar Tema
+            </button>
+        </main>
+
+        <section class="extra-info">
+            <button onclick="toggleContact()" class="toggle-btn">Informações de Contato</button>
+            <div id="contact-details" class="hidden">
+                <p>📧 alinedias5033@exemplo.com</p>
+                <p>📍 São Paulo, Brasil</p>
+            </div>
+        </section>
+
+        <footer>
+            <p>© 2026 - Todos os direitos reservados</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
